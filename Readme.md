@@ -26,7 +26,7 @@ you can even use this simple [request translation tool](http://codepen.io/icodef
 ## initialization
 
 ```javascript
-var Requester = ('requester');
+var Requester = require('requester');
 
 var requester = new Requester({
 	cookiejar: true, // basic cookie support, currently doesnt care about domain or path rules
